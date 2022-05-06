@@ -1,0 +1,125 @@
+<!-- Header -->
+<header
+  id="main-header-navbar"
+  class="absolute top-0 left-0 z-10 flex w-full items-center bg-transparent transition duration-300 ease-in-out"
+>
+  <div class="container">
+    <div class="relative flex items-center justify-between">
+      <div class="px-4">
+        <a
+          {{if
+          (or
+          .IsPage
+          .IsSection)}}
+          href="{{.Site.BaseURL}}"
+          {{end}}
+          class="block cursor-pointer py-6 text-lg font-bold text-primary"
+          >ng.gaaa</a
+        >
+      </div>
+      <div class="flex items-center px-4">
+        <button class="absolute right-4 block lg:hidden" id="hamburger">
+          <span
+            class="origin-top-left transition duration-300 ease-in-out"
+          ></span>
+          <span class="transition duration-300 ease-in-out"></span>
+          <span
+            class="origin-bottom-left transition duration-300 ease-in-out"
+          ></span>
+        </button>
+        <nav
+          id="nav-menu"
+          class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-gray-700 lg:static lg:block lg:max-w-full lg:rounded-none lg:bg-transparent lg:shadow-none dark:lg:bg-transparent"
+        >
+          <ul class="block lg:flex">
+            {{if .IsHome}}
+            <li class="group">
+              <a
+                href="#home"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Beranda</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="#about"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Tentang</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="#skills"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Kemampuan</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="#blog"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Tulisan</a
+              >
+            </li>
+            {{else}}
+            <li class="group">
+              <a
+                href="/"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Beranda</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="/posts"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Semua Tulisan</a
+              >
+            </li>
+            <li class="group">
+              <a
+                href="/category"
+                class="mx-8 flex py-2 text-base text-dark group-hover:text-primary dark:text-white"
+                >Kategori</a
+              >
+            </li>
+            {{end}}
+            <li id="darktoggle">
+              <input type="checkbox" class="hidden" id="dark-checkbox" />
+              <label
+                for="dark-checkbox"
+                class="mx-8 flex cursor-pointer items-center py-1 text-primary"
+              >
+                <div class="h-8 w-8">
+                  <!-- Sun -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentcolor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="w-full hover:animate-pulse"
+                  >
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+                  <!-- End Sun -->
+                </div>
+              </label>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- End Header -->

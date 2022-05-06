@@ -1,0 +1,37 @@
+{{define "main"}}
+<!-- List Section -->
+<section class="py-24 dark:bg-dark">
+  <div class="container">
+    <div class="flex justify-center">
+      <div class="mb-10 w-full lg:w-3/4">
+        <h4 class="mb-3 text-4xl font-bold uppercase text-primary">
+          {{.Title}}
+        </h4>
+        {{range .Pages}}
+        <div class="mt-5">
+          <div class="border-b px-2 py-4 border-primary">
+            <a href="{{.Permalink}}" class="text-primary font-semibold text-3xl"
+              ># {{.Title}}</a
+            >
+            <div class="ml-8">
+              <h4 class="text-primary font-medium text-sm">
+                {{.Date.Format "2006-01-02 15:04:05"}}
+              </h4>
+              <p class="text-secondary dark:text-dark_secondary">
+                {{.Summary}}
+              </p>
+              <a
+                href="{{.Permalink}}"
+                class="text-primary hover:text-opacity-80"
+                >Read More</a
+              >
+            </div>
+          </div>
+        </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End List Section -->
+{{end}}
