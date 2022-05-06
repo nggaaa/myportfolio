@@ -7,5 +7,6 @@ title = "Halo"
 Halo Semuanya.
 
 Ini adalah konten yang aku ketik pertama kali di blog ini. Terima kasih yang sudah berkunjung.
-
-    print("Thank You")
+```python
+print("Thank You")
+```
