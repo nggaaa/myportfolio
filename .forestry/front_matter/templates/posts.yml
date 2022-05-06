@@ -1,4 +1,22 @@
 ---
 label: Posts
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Judul
+- name: date
+  type: datetime
+  label: Tanggal Posting
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
