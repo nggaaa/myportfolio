@@ -673,36 +673,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 36rem;
 }
 
-.max-w-\[80px\] {
-  max-width: 80px;
-}
-
-.max-w-\[250px\] {
-  max-width: 250px;
-}
-
-.max-w-\[100px\] {
-  max-width: 100px;
-}
-
-.max-w-\[90px\] {
-  max-width: 90px;
-}
-
-.max-w-\[910px\] {
-  max-width: 910px;
-}
-
-.max-w-\[px\] {
-  max-width: px;
+.max-w-\[70px\] {
+  max-width: 70px;
 }
 
 .max-w-\[200px\] {
   max-width: 200px;
 }
 
-.max-w-\[70px\] {
-  max-width: 70px;
+.max-w-\[250px\] {
+  max-width: 250px;
 }
 
 .origin-top-left {
@@ -1101,10 +1081,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-pre > code {
+pre * {
   font-family: "Fira Code", monospace !important;
 }
 
@@ -1288,11 +1268,6 @@ body::-webkit-scrollbar {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:contrast-125:hover {
-  --tw-contrast: contrast(1.25);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:grayscale-0:hover {

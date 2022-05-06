@@ -4,6 +4,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{.Title}}</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Adsense Tag -->
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3134424876989975"
+    crossorigin="anonymous"
+  ></script>
+  <!-- End Adsense Tag -->
+
   {{if .Description}}
   <meta name="description" content="{{.Description}}" />
   {{else if eq .Kind "section"}}
@@ -11,6 +26,7 @@
   {{else}}
   <meta name="description" content="{{.Site.Params.Description}}" />
   {{end}}
+
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/syntax.css" />
   <script>
