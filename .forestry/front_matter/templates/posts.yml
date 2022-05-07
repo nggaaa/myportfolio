@@ -19,4 +19,4 @@ fields:
 - name: tags
   type: tag_list
   default: []
-  label: Tags
+  label: Tag
