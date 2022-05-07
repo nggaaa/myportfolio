@@ -21,5 +21,3 @@ fields:
   default: []
   label: Tag
   hidden: false
-pages:
-- content/posts/halo.md
