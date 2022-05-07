@@ -16,20 +16,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- name: categories
-  type: select
-  default: Random
-  config:
-    required: true
-    options:
-    - " Programming"
-    - FAQs
-    - Tutorial
-    - Story
-    - Random
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Kategori
+- name: tags
+  type: tag_list
+  default: []
+  label: Tag
