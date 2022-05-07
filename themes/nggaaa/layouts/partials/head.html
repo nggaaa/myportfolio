@@ -3,14 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{.Title}}</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet"
   />
-
   <!-- Adsense Tag -->
   <script
     async
@@ -18,6 +16,21 @@
     crossorigin="anonymous"
   ></script>
   <!-- End Adsense Tag -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-L7K2Y4CB1H"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-L7K2Y4CB1H");
+  </script>
+  <!-- End Analytics Tag -->
 
   {{if .Description}}
   <meta name="description" content="{{.Description}}" />
