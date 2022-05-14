@@ -9,14 +9,6 @@
     href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Poppins:wght@400;500;600&display=swap"
     rel="stylesheet"
   />
-  <!-- Adsense Tag -->
-  <script
-    async
-    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3134424876989975"
-    crossorigin="anonymous"
-  ></script>
-  <!-- End Adsense Tag -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
     src="https://www.googletagmanager.com/gtag/js?id=G-L7K2Y4CB1H"
@@ -39,7 +31,9 @@
   {{else}}
   <meta name="description" content="{{.Site.Params.Description}}" />
   {{end}}
-
+  
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/syntax.css" />
   <script>
