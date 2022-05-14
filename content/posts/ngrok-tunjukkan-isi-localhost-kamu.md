@@ -32,8 +32,8 @@ Setelah di ekstrak, buka folder hasil ekstrak. Lalu copy atau cut.
 Lalu pastekan ke tempat dimana kamu ingin menyimpan ngrok nya. Misal saya ingin menaruh ngrok saya di `C:\ngrok`. Kalau belum ada, buat foldernya di drive C.
 
 ![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652506463/uploads/Screenshot_2022-05-14_123413_gzew8v.png)
-<br>
-<br>
+<br/>
+<br/>
 Setelah file dipindahkan, buka menu search, cari `Edit the system environment variables` Lalu klik.
 
 ![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652506724/uploads/Screenshot_2022-05-14_123642_qvehkx.png)
