@@ -21,4 +21,10 @@ Setelah login, kamu bisa download ngrok sesuaiOS yang kamu punya.
 
 Disini aku mendemonstrasikan instalasi mengunakan Windows. Untuk Linux dan Mac OS bisa mengikuti panduan yang ada di websitenya.
 
-Setelah didownload akan ada file zip hasil download ngrok. Ekstrak zipnya
+Setelah didownload akan ada file zip hasil download ngrok. Ekstrak zipnya.
+
+![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652505703/uploads/Screenshot_2022-05-14_122112_oaaf43.png)
+
+Setelah di ekstrak, buka folder hasil ekstrak. Lalu copy atau cut. 
+
+Lalu pastekan ke tempat dimana kamu ingin menyimpan ngrok nya. Misal saya ingin menaruh ngrok saya di ```C:\ngrok```. Kalau belum ada, buat foldernya di drive C
