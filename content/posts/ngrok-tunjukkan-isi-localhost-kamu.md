@@ -33,7 +33,14 @@ Lalu pastekan ke tempat dimana kamu ingin menyimpan ngrok nya. Misal saya ingin 
 
 ![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652506463/uploads/Screenshot_2022-05-14_123413_gzew8v.png)
 
-
-Setelah file dipindahkan, buka menu search, cari `Edit the system environment variables` Lalu klik.
+Setelah file dipindahkan, Copy directory ngrok disimpan. Buka menu search, cari `Edit the system environment variables` Lalu klik.
 
 ![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652506724/uploads/Screenshot_2022-05-14_123642_qvehkx.png)
+
+Klik Environment Variables.
+
+![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652507188/uploads/Screenshot_2022-05-14_124403_glwy7l.png)
+
+Klik Path yang ada di `User Variable`
+
+![](https://res.cloudinary.com/dblexpcs4/image/upload/v1652507187/uploads/Screenshot_2022-05-14_124431_ldjd14.png)
